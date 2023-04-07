@@ -4,7 +4,7 @@ $data = $_POST;
 $username = $data['ucid'];
 $password = $data['password'];
 //------------------CONNECTING TO DB---------------------
-$con = mysqli_connect("sql2.njit.edu", "ab2473", "AE(r!}Z4X4", "ab2473");
+$con = mysqli_connect("sql2.njit.edu", "ab2473", " ", "ab2473");
 $sql = "SELECT * FROM `Credentials` WHERE Uname='$username' AND Pass='$password'";
 $result = mysqli_query($con, $sql);
 $row = mysqli_fetch_array($result);

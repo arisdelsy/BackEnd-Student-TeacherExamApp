@@ -22,7 +22,7 @@ $answer3 = $message['answer3'];
 //DB connection
 $servername = "sql1.njit.edu";
 $username = "ab2473";
-$password = "AE(r!}Z4X4";
+$password = " ";
 $dbname = "ab2473";
 
 // Create connection

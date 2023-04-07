@@ -1,7 +1,7 @@
 <?php
 $servername = "sql1.njit.edu";
 $username = "ab2473";
-$password = "AE(r!}Z4X4";
+$password = " ";
 $dbname = "ab2473";
 
 $con = new mysqli($servername, $username, $password, $dbname);
